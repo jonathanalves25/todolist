@@ -100,3 +100,13 @@
 .inputArea button:hover {
     background:#4EA8DE;
 }
+
+@media only screen and (max-width: 425px) { 
+    .inputArea, .tasksInfos, .tasksArea {
+        padding:15px;
+    }
+
+    .inputArea {
+        margin-top:-60px;
+    }
+}
