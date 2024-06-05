@@ -101,7 +101,7 @@
     background:#4EA8DE;
 }
 
-@media only screen and (max-width: 425px) { 
+@media only screen and (max-width: 480px) { 
     .inputArea, .tasksInfos, .tasksArea {
         padding:15px;
     }
