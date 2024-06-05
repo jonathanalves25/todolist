@@ -1,0 +1,28 @@
+.EmptyArea {
+    width:100%;
+    max-width:740px;
+    height:244px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:8px;
+    border-top:2px solid #333;
+}
+
+.EmptyImg img {
+    width:56px;
+    height:56px;
+    margin-bottom:16px;
+}
+
+.EmptyText p {
+    color:#808080;
+    font-size:16px;
+    font-family: Inter, 'sans-serif';
+    padding: 3px 0;
+}
+
+.EmptyText p:first-child {
+    font-weight:bold;
+}
